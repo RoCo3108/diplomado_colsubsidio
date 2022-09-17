@@ -1,0 +1,16 @@
+.container{
+    flex-wrap: wrap;
+    background-color: blue;
+    color: white;
+    padding: 2px;
+    gap: 2px;
+}
+.presentacion{
+    display: flex;
+    border: 1px solid;
+    padding: 2px;
+}
+.presentacion:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
