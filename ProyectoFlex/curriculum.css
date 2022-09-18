@@ -1,0 +1,22 @@
+.container{
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container > div{
+
+  background-color: #0833f3;
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: justify;
+    
+}
+.container > div:hover{
+
+  opacity: 0.6;
+      
+  }
