@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    text-align: justify;
+}
+
+.datos-libros{
+    margin-top: 20px;
+    margin-left: 75px;
+    text-align: justify;
+    margin-right: 35px;
+}
+.descripcion-libro{
+    margin-top: 20px;
+    width: 1000px;
+    margin-bottom: 50px;
+
+}
+.Contenido-libro{
+    display: flex;
+    text-align: justify;
+    flex-direction: row;
+    width: 950px;
+    gap: 25px;
+    margin-top: 20px;
+    width: 1000px;
+    text-align: center;
+}
+
+.Contenido-libro p{
+
+    text-align: justify;
+}
+.titulo{
+    background-color: black;
+    color: white;
+    text-align: center
+}
+
+.titulo:hover{
+    opacity: 0.6;
+    cursor: pointer;
+
+}
+.button{
+    margin: 50px 0 0 50px;
+    height: 80px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px 5px 45px 5px;
+    font-size: 30px;
+    display: grid;
+    place-content: center;
+    box-shadow: 20px 20px 10px gray;
+    
+}
+.button:hover{
+
+    color: beige;
+    background-color: black 
+
+}
