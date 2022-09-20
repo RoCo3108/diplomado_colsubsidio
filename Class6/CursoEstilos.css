@@ -13,19 +13,21 @@
 }
 
 .datos-libros{
+    float: left;
     margin-top: 20px;
     margin-left: 75px;
     text-align: justify;
     margin-right: 35px;
 }
 .descripcion-libro{
+    float: right;
     margin-top: 20px;
     width: 1000px;
     margin-bottom: 50px;
 
 }
 .Contenido-libro{
-    display: flex;
+    float: right;
     text-align: justify;
     flex-direction: row;
     width: 950px;
