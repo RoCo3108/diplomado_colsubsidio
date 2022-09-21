@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,500;1,700&display=swap');
+
+*{
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    margin: auto;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 450px;
+
+}
+
+header{
+
+    background-color: darkgray;
+  }
+  header picture {
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+   
+  }
+   
+  header picture span {
+    margin-left: 10px;
+   font-size: x-large;
+   font-family: 'Times New Roman', Times, serif;
+  }
+  
+  picture span::first-letter {
+     color: chartreuse;
+   }
+
+   .section-inputs{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+  }
+
+  label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  label span{
+    font-weight: 700;
+}
+
+.section-inputs label input{
+    width: 80%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    
+  }
+  label input{
+    width: 90%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.1s, border 0.2s box-shadow 0.2s;
+    
+  }
+
+   label input:hover{
+    cursor: pointer;
+    border: 1px solid #f3f3f4;
+    background-color: white;
+    box-shadow: 0px 0px 4px #7a1ae878;
+  }
+  label textarea{
+    cursor: pointer;
+    border: 1px solid #f3f3f4;
+    background-color: white;
+    box-shadow: 0px 0px 4px #7a1ae878;
+  }
+
+  label input:focus{
+    cursor: pointer;
+    border: 1px solid #f3f3f4;
+    background-color: white;
+    box-shadow: 0px 0px 4px #7a1ae878;
+  }
+  .submit-btn{
+    background-color: #EA4C89;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+ }
+ .submit-btn:hover{
+    opacity: 0.75;
+    box-shadow: 8px 5px 5px  #0d0a0b;
+ }

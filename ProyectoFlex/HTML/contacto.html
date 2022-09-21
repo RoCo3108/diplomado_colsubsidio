@@ -1,16 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-</head>
-<body>
-    <h1>
-        Estamos en mantenimiento
-    </h1>
-    <form action=""></form>
-    <a href="curriculum.html">REGRESAR</a>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="../CSS/contacto.css" />
+  </head>
+  <body>
+    <header>
+      <picture>
+        <img
+          src="../IMG/technical-support.svg"
+          alt="logo-compañia"
+          width="50px"
+        />
+        <span>Rony Code & services</span>
+      </picture>
+    </header>
+    <hr />
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.0288211729853!2d-74.21836530635986!3d4.588850611143902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ffbfd7697a7%3A0x7d9979d65bce19a6!2sCONJUNTO%20RESIDENCIAL%20EL%20ENCANTO!5e0!3m2!1ses!2sco!4v1663746389229!5m2!1ses!2sco"
+        width="1920"
+        height="600"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+        <hr>
+
+        <div class="container">
+            <h1>Envianos tus comentarios</h1>
+          <form action="" method="">
+            <div class="section-inputs">
+              <label for="name">
+                <span>Nombre:</span>
+                <input type="text" id="name" name="name"  placeholder="Ingrese Nombre"/>
+              </label>
+              <label for="apellido">
+                <span>Apellido</span>
+                <input type="text" id="apellido" name="apellido" placeholder="Ingrese Apellido"/>
+              </label>
+            </div>
+            <label for="email">
+              <span>Email</span>
+              <input type="text" id="email" name="email" placeholder="Ingrese Correo Electronico" />
+            </label>
+            <label for="texarea" class="texarea-label">
+              <textarea name="texarea" id="texarea"></textarea>
+              <span>Comentarios</span>
+            </label>
+            <button type="submit" class="submit-btn">Enviar</button>
+          </form>
+        </div>
+    <footer class="footer">
+      <div>Soy el pie de pagina</div>
+    </footer>
+  </body>
 </html>

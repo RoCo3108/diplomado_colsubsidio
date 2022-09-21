@@ -5,20 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <link rel="stylesheet" href="curriculum.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/curriculum.css">
 </head>
 <body>
-    <div class="topnav">
-        <a class="active" href="Home.html">Inicio</a>
+    <header>
+        <picture>
+            <img src="../IMG/technical-support.svg" alt="logo-compañia" width="50px">
+            <span>Rony Code & services</span>
+        </picture>
+    </header>
+    <div class="topnav" id="myTopnav">
+        <a href="Home.html" class="active">Inicio</a>
+        <a href="login.html">Registrarse</a>
         <a href="servicios.html">Servicios</a>
-        <a href="contacto.html">Contacto</a>
+        <a href="contacto.html">Contactanos</a>
         <a href="sobre mi.html">Sobre Mi</a>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
 
     <div class="container">
         <div class="Contenedor-foto">
             <picture class="caja-foto">
-                <img src="Foto-perfil.jpeg" alt="Foto-perfil">
+                <img src="../IMG/Foto-perfil.jpeg" alt="Foto-perfil" width="100px">
             </picture>
             <div>
                 <button>Ronald Edward Cortes </button>
@@ -58,5 +70,17 @@
                     </ul>    
         </div>
     </div>
+
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
 </body>
 </html>
