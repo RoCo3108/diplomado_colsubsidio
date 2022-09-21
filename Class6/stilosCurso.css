@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.datos-libros{
+    float: left;
+    width: auto;
+    margin-left: 95px;
+    margin-right: 35px;
+    margin-top: 35px;
+}
+
+
+.descripcion-libro{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    float: inline-start;
+    margin-top: 25px;
+    margin-right: 65px;
+    margin-left: 115px;
+    gap: 25px;
+    text-align: center;
+    text-align: justify;
+   
+}
+.titulo{
+
+    text-align: center;
+
+}
+
+.contenido{
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: justify;
+    width: auto;
+
+}
+
+.descripcion-libro .contenido .contenido-libro{
+
+    display: flex;
+    gap: 25px;
+    width: auto;
+}
