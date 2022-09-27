@@ -23,9 +23,6 @@
           <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Marcas</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="caballero.html">Caballero</a>
         </li>
         <li class="nav-item">
@@ -81,19 +78,24 @@
           <input type="radio" name="sexo" id="sexo" value="masculino">Masculino
           <input type="radio" name="sexo" id="sexo" value="femenino">Femenino
         </div>
-        <div class="mb-3">
+        <div class="mb-2">
           <label for="mensaje">Denos tu opinion:</label>
           <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Mensaje" cols="34"></textarea>
         </div>
-        <div class="alert alert-danger">
-          mensaje
-          <!-- <button class="btn btn-primary" type="button"  aria-label="Close">Realizar Pedido</button> -->
+        <div class="mb-2 " class="alert">
+          <button class="btn btn-primary" type="button"  aria-label="Close">Realizar Pedido</button>
         </div>
       </form>
       </div>
     </div>
   </div>
 </body>
+<script>
+  var alertList = document.querySelectorAll('.alert')
+alertList.forEach(function (alert) {
+  new bootstrap.Alert("Enviado")
+})
+</script>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
