@@ -50,4 +50,20 @@ function carrusel(){
     x.style.display = "none";
     }
     
+}
+
+function calculadora(){
+
+    var num1 = parseInt(prompt("Ingrese el primer numero"))
+    var num2 = parseInt(prompt("Ingrese el segundo numero"))
+
+    suma = num1+num2;
+    resta = num1-num2
+    alert("Suma: " + suma)
+    alert("Multiplicacion: " + num1*num2)
+    alert("Resta: "+ resta)
+    alert("Division: " + num1/num2)
+
     }
+    
+
